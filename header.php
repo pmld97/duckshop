@@ -66,12 +66,12 @@
   <div class="navbar navbar-dark bg-dark shadow-sm">
     <div class="container d-flex justify-content-between">
       <a href="#" class="navbar-brand d-flex align-items-center">
-        <a id="logo" href="index.php">The Duckest Shop</a>
+        <a id="logo" href="index.php">Homepage</a>
       </a>
-      <a href="about.php">About Us</a>
+      <a href="productpage.php">Products</a>
       <a href="loginpage.php">Log in</a>
       <a href="cart.php">Go to basket</a>
-      <a href="contact"> Contact Us </a>
+      <a href="contact.php"> Contact Us </a>
     </div>
   </div>
 </header>
