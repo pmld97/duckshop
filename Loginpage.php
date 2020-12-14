@@ -64,7 +64,7 @@ include "header.php";
     </label>
   </div>
   <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit" value="Login">Sign in</button>
-  <button class="btn btn-lg btn-primary btn-block"> <a href="newuserpage.php"> Create account</button></a>
+  <button class="btn btn-lg btn-primary btn-block"> <a class="text-light text-decoration-none" href="newuserpage.php"> Create account</button></a>
 </form>
     </div>
 </body>

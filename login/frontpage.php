@@ -8,6 +8,6 @@ confirm_logged_in();
 
 <html>
 <body>
-<h1 align="center">Welcome to the backend!</h1>
+<h1 align="center"> You're now logged in as </h1>
 </body>
 </html>

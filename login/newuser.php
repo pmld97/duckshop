@@ -15,7 +15,7 @@ if(isset($_POST["submit"])){
     $result->bindParam(2, $hashed_password);
     $result->execute();
     if ($result){
-        $message = "User Created!";
+        redirect_to("Loginpage.php");
     }else{
         $message = "User could not be created.";
         $message .= "<br>" .print_r($connection->errorInfo());

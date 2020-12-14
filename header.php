@@ -68,8 +68,8 @@
       <a href="#" class="navbar-brand d-flex align-items-center">
         <a id="logo" href="index.php">Homepage</a>
       </a>
-      <a href="productpage.php">Products</a>
-      <a href="loginpage.php">Log in</a>
+      <a href="products.php">Products</a>
+      <a href="loginpage.php">Log in / Log out</a>
       <a href="cart.php">Go to basket</a>
       <a href="contact.php"> Contact Us </a>
     </div>

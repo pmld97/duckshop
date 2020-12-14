@@ -5,7 +5,7 @@
       <p>
         <a href="create.php" class="btn btn-primary my-2">Create new product</a>
         <a href="manage.php" class="btn btn-primary my-2">Manage products</a>
-        <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+        <a href="daily.php" class="btn btn-primary my-2">Daily offer</a>
       </p>
     </div>
   </section>

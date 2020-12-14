@@ -3,7 +3,7 @@ require_once ("include/session.php");
 require_once ("include/connection.php");
 require_once ("include/functions.php");
 if(logged_in()){
-    redirect_to("frontpage.php");
+    redirect_to("logoutpage.php");
 }
 if(isset($_POST["submit"])){
 
@@ -17,7 +17,7 @@ if(isset($_POST["submit"])){
             if(password_verify($password, $found_user['pass'])){
                 $_SESSION['user_id'] = $found_user['id'];
                 $_SESSION['user'] = $found_user['user'];
-                redirect_to("login/frontpage.php");
+                redirect_to("index.php");
             }else{
                 $message = "User/Pass combination incorrect.<br>";
 
