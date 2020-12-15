@@ -23,3 +23,16 @@ CREATE TABLE users (
     pass varchar(100)
 );
 
+CREATE TABLE daily (
+    ID int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    DailyName varchar(100),
+    DailyBody varchar(100),
+    DailyPicture LONGBLOB
+);
+
+
+CREATE TABLE company (
+    ID int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    CompanyNumber varchar(100),
+    CompanyAddress varchar(100)
+);
